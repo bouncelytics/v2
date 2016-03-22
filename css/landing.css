@@ -1,0 +1,92 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.hero {
+	color: #373d3f;
+	position: relative;
+}
+
+h4 {
+	color: #131516
+}
+
+.hero .copy {
+
+}
+
+header {
+	padding: 1.5em 0 3em;
+	border-bottom: 1px solid rgba(95,102,120,0.2);
+	margin-bottom: 4em;
+}
+
+form, input[type=submit] {
+	margin-bottom: 0;
+}
+
+.how {
+	margin: 3em 0 4em;
+	padding-top: 3em;
+	border-top: 1px solid rgba(95,102,120,0.2);
+}
+
+.image-container {
+	height: 200px;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.steps {
+	display: block;
+	font-size: 50px;
+	color: rgba(95,102,120,0.2);
+	line-height: 60px;
+	margin-bottom: 0.2em;
+}
+
+footer {
+	padding: 1em;
+	font-size: 12px;
+	text-transform: uppercase;
+	opacity: 0.5;
+}
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	.container {
+		padding: 1em;
+	}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.container {
+		padding: 0;
+	}
+
+
+	.signup-form {
+		padding: 2em;
+		background: #F9F9FB;
+		border-radius: 5px;
+		border: 1px solid rgba(95,102,120,0.2);
+	}
+
+	.image-container {
+		padding: 1em;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
