@@ -42,12 +42,6 @@ form, input[type=submit] {
 	border-top: 1px solid rgba(95,102,120,0.2);
 }
 
-.image-container {
-	height: 200px;
-	margin-bottom: 2em;
-	margin-top: 0em;
-}
-
 .steps {
 	display: block;
 	font-size: 50px;
