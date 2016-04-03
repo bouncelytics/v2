@@ -96,6 +96,10 @@ footer {
 	margin-top: 50px;
 }
 
+.mobile-only {
+	margin-bottom: 40px;
+}
+
 /* Mobile first queries */
 
 /* Larger than mobile */
@@ -133,5 +137,9 @@ footer {
 
 	.content {
 		width: 70%;
+	}
+
+	.mobile-only {
+		display: none;
 	}
 }
