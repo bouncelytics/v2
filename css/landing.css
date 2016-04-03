@@ -113,6 +113,9 @@ h3 {
 footer {
 	height: 50px;
 	margin-top: 50px;
+	text-align: center;
+	font-size: 12px;
+	color: white;
 }
 
 .mobile-only {
