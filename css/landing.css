@@ -3,94 +3,94 @@ body, html {
 	margin: 0;
 }
 
+body {
+	background: #A2DED0;
+}
+
 a {
 	text-decoration: none;
 }
 
-.hero {
-	color: #373d3f;
+header {
+	height: 50px;
+	margin-bottom: 100px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
 	position: relative;
 }
 
-h4 {
-	color: #131516
+.content {
+	width: 70%;
+	background: white;
+	border-radius: 3px;
+	padding: 30px 30px 0;
 }
 
-.hero .copy {
-
+.signup-container	{
+	width: calc(1160px - 70%);
+	position: absolute;
+	right: 0;
+	top: 40px;
+	background: white;
+	border-radius: 3px;
 }
 
-header {
-	padding: 1.5em 0 3em;
-	border-bottom: 1px solid rgba(95,102,120,0.2);
-	margin-bottom: 3em;
-}
-
-.logo {
-	font-size: 15px;
-	font-weight: bold;
-	text-transform: uppercase;
+.signup-form {
+	padding: 30px;
 }
 
 form, input[type=submit] {
 	margin-bottom: 0;
 }
 
-.how {
-	margin: 2em 0 4em;
-	padding-top: 2em;
-	border-top: 1px solid rgba(95,102,120,0.2);
+/**
+ * CONTENT
+ */
+h1 {
+	font-size: 48px;
+	text-align: center;
+	margin: 20px auto 40px;
+	font-weight: 400;
+	color: #131516;
 }
 
-.steps {
+p {
+	opacity: 1;
+	color: #373d3f;
+	margin-bottom: 40px;
+}
+
+.main-image, .features-image {
+	height: 200px;
+	margin-bottom: 30px;
+}
+
+.main-image img, .features-image img {
+	height: 100%;
 	display: block;
-	font-size: 50px;
-	color: rgba(95,102,120,0.2);
-	line-height: 60px;
-	margin-bottom: 0.2em;
+	margin: 0 auto;
+}
+
+hr {
+	height: 1px;
+	width: 25%;
+	border: 0;
+	background: #A2DED0;
+	opacity: 0.7;
+	margin: 0 auto 40px;
+}
+
+h3 {
+	font-size: 22px;
+	letter-spacing: 0;
+	font-weight: 500;
+	margin-bottom: 20px;
 }
 
 footer {
-	padding: 1em;
-	font-size: 12px;
-	text-transform: uppercase;
-	opacity: 0.5;
+	height: 50px;
+	margin-top: 50px;
 }
-
-/* Mobile first queries */
-
-/* Larger than mobile */
-@media (min-width: 400px) {
-	.container {
-		padding: 1em;
-	}
-}
-
-/* Larger than phablet */
-@media (min-width: 550px) {
-}
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-	.container {
-		padding: 0;
-	}
-
-
-	.signup-form {
-		padding: 2em;
-		background: #F9F9FB;
-		border-radius: 5px;
-		border: 1px solid rgba(95,102,120,0.2);
-	}
-
-	.image-container {
-		padding: 1em;
-	}
-}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
