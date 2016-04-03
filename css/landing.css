@@ -103,7 +103,7 @@ footer {
 /* Mobile first queries */
 
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media (min-width: 320px) {
 	.container {
 		max-width: 100%;
 	}
