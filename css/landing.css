@@ -4,7 +4,7 @@ body, html {
 }
 
 body {
-	background: #A2DED0;
+	background: #66CC99;
 }
 
 a {
@@ -12,8 +12,26 @@ a {
 }
 
 header {
-	height: 50px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
+	padding: 10px;
+	background: #fff;
+	overflow: hidden;
+}
+
+.logo-top {
+	height: 17px;
+	width: 119px;
+	background: url(../images/logo-top.png);
+	background-size: contain;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	float: left;
+}
+
+.contact {
+	float: right;
+	font-size: 16px;
 }
 
 .container {
@@ -33,7 +51,7 @@ header {
 	width: calc(1160px - 70%);
 	position: absolute;
 	right: 0;
-	top: 40px;
+	top: 0;
 	border-radius: 3px;
 }
 

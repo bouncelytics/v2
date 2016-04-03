@@ -14,7 +14,12 @@
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body class="tk-proxima-nova">
-	<header></header>
+	<header>
+		<div class="container">
+			<a href="https://bouncelytics.com/v2" class="logo-top"></a>
+			<a class="contact" href="mailto:hello@bouncelytics.com">Contact Us</a>
+		</div>
+	</header>
 
 	<div class="container">
 		<div class="content">
@@ -185,7 +190,7 @@
 				,	stickyElem = document.querySelector('.signup-form')
 				,	contentWidth = document.querySelector('.content').offsetWidth;
 
-			if (scrollPos >= 150) {
+			if (scrollPos >= 55) {
 				stickyElem.style.position = 'fixed';
 				stickyElem.style.top = '40px';
 				stickyElem.style.width = 1160 - contentWidth + 'px';
